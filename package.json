@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "User authentication and authorization API using Node.js, Express.js, MongoDB, JWT.",
   "main": "server.js",
-"scripts": {
-  "start": "node server.js",
-  "build": "npm rebuild bcrypt --build-from-source"
-}
-,
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm rebuild bcrypt --build-from-source"
+  },
   "author": "Siva",
   "license": "ISC",
   "dependencies": {
@@ -16,10 +15,13 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.0.3",
+    "mongoose": "^6.12.8",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
